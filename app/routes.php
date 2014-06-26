@@ -21,9 +21,9 @@ Route::get('/portfolio', function()
 	return "This is my portfolio!";
 });
 
-// Route::get('/', function (){
-// 	return 'we are home';
-// });
+Route::get('/', function (){
+ 	return 'we are home';
+});
 
 // Route::get('/sayhello/{name}', function($name)
 // {
